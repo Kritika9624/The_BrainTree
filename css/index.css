@@ -1,0 +1,94 @@
+* {
+    box-sizing: border-box;
+}
+
+html {
+    border: 5px solid #0046CE;
+}
+
+body {
+    border: 5px solid #6d94e4;
+    margin: 0;
+}
+
+.bg {
+    border: 5px solid rgb(56, 143, 15);
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    height: 50%;
+    background-color: rgb(254, 93, 122, 0.15);
+    z-index: -1;
+}
+
+.wrapper {
+    border: 5px solid #45EC9C;
+    display: flex;
+    flex-flow: column;
+    padding: 0 3rem;
+}
+
+.top {
+    border: 4px solid crimson;
+    display: flex;
+    flex-flow: column;
+}
+
+.header{
+    border: 3px solid;
+    display: flex;
+    justify-content: space-between;
+}
+
+.logo{
+    border: 2px solid;
+}
+
+nav{
+    border: 2px solid red;
+}
+
+nav ul{
+    margin: 0;
+    padding: 0;
+    border: 2px solid blue;
+}
+
+nav li{
+    border: 1px solid;
+    list-style-type: none;
+    display: inline-block;
+}
+
+.header-right-corner{
+    border: 2px solid;
+}
+
+/* .hero-text{
+    border: 3px solid;
+}
+
+.search-bar{
+    border: 3px solid;
+} */
+
+.popular-books {
+    border: 4px solid black;
+}
+
+.subjects {
+    border: 4px solid chartreuse;
+}
+
+.recently-added {
+    border: 4px solid darkmagenta;
+}
+
+.question-box {
+    border: 4px solid forestgreen;
+}
+
+.footer {
+    border: 4px solid hotpink;
+}
