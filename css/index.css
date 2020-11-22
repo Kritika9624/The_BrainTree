@@ -11,6 +11,7 @@
     box-sizing: border-box;
     font-family: var(--primary-font);
     letter-spacing: 0.05rem;
+    text-decoration: none;
 }
 
 body {
@@ -73,8 +74,8 @@ body {
 
 nav {
     /* border: 2px solid red; */
-    padding: 1.2rem 0;
-    margin: 0 0 0 -1.4rem;
+    /* padding: 1.2rem 0; */
+    margin: 1rem 0 0 -1.4rem;
 }
 
 nav ul {
@@ -90,6 +91,22 @@ nav li {
     margin: 0 1.3rem;
     font-size: 0.8rem;
     color: #1a1c20;
+}
+
+nav ul li:first-child {
+    font-weight: 600;
+}
+
+nav a {
+    color: #1a1c20;
+}
+
+nav li div {
+    border-radius: 50%;
+    background-color: #1a1c20;
+    height: 4px;
+    width: 4px;
+    margin: 0.5rem auto;
 }
 
 .header-right-corner {
@@ -134,7 +151,7 @@ nav li {
 }
 
 .search-bar .fa-search {
-    border: 2px solid black;
+    border: 2px solid #1a1c20;
     color: #aaaaaa;
     background-color: white;
     border-top-left-radius: 27px;
@@ -142,6 +159,7 @@ nav li {
     border-right: none;
     width: 3rem;
     padding: 1rem;
+    box-shadow: 5px 5px 8px #1a1c202a;
 }
 
 #search {
@@ -150,6 +168,7 @@ nav li {
     border-top-right-radius: 27px;
     border-bottom-right-radius: 27px;
     border-left: none;
+    box-shadow: 5px 5px 8px #1a1c202a;
 }
 
 .popular-books,
@@ -211,19 +230,22 @@ nav li {
     border: 2px solid #1a1c20;
     border-radius: 12px;
     height: 250px;
+    box-shadow: 5px 5px 5px #1a1c202a;
 }
 
 .book-name,
 .subject-name {
     width: 200px;
+    color: #1a1c20;
 }
 
 .subject-image {
-    width: 300px;
+    width: 350px;
 }
 
 .ch {
     font-size: 0.7rem;
+    color: #FE5D7A;
 }
 
 .question-box {
@@ -233,29 +255,33 @@ nav li {
     display: flex;
     justify-content: space-between;
     padding: 2rem;
-    width: 45rem;
-    height: 19.5rem;
+    width: 48rem;
+    height: 20rem;
     margin: auto;
+    box-shadow: 5px 5px 5px #1a1c202a;
 }
 
 .question-box-text {
     display: flex;
     flex-flow: column;
     gap: 2.9rem;
-    width: 27rem;
+    width: 20rem;
+    margin-right: -1rem;
 }
 
 .question {
+    color: #1a1c20;
     font-size: 1.5rem;
     font-weight: 600;
 }
 
-.question-text{
+.question-text {
+    color: #1a1c20;
     font-size: 0.8rem;
     line-height: 1.4rem;
 }
 
-.question-box-text button{
+.question-box-text button {
     width: 10rem;
     height: 3rem;
     border: none;
@@ -264,71 +290,107 @@ nav li {
     color: white;
     font-size: 0.75rem;
     cursor: pointer;
+    box-shadow: 5px 5px 5px #1a1c2081;
 }
 
 .footer {
-    border: 4px solid hotpink;
     display: flex;
     justify-content: space-between;
+    padding: 2rem 0;
 }
 
-.footer-logo-box{
-    border: 2px solid blue;
+.footer-logo-box {
     display: flex;
     flex-flow: column;
     justify-content: space-between;
     gap: 5rem;
 }
 
-.ft-logo{
+.ft-logo {
     display: flex;
     flex-flow: column;
     gap: 0.4rem;
 }
 
-.ft-logo img{
+.ft-logo img {
     margin: auto;
 }
 
-.ft-logo-text{
+.ft-logo-text {
     font-size: 1.6rem;
     font-weight: 600;
     text-align: center;
 }
 
-.tagline{
+.tagline {
     text-align: center;
     font-size: 0.6rem;
 }
 
-.ft-navs{
-    border: 2px solid red;
+.social-media-icons {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.social-media-icons a {
+    color: #1a1c20;
+}
+
+.ft-navs {
     display: flex;
     gap: 10rem;
+    padding: 0.5rem 0 0 0;
 }
 
-.ft-nav-one{
-    border: 2px solid purple;
+.ft-nav-one {
     display: flex;
     flex-flow: column;
+    gap: 1.7rem;
 }
 
-.ft-nav-two{
-    border: 2px solid green;
+.ft-nav-two {
     display: flex;
     flex-flow: column;
+    gap: 1.7rem;
 }
 
-.ft-navs a{
-    font-size: 0.8rem;
+.ft-navs a {
+    font-size: 0.9rem;
+    color: #1a1c20;
 }
 
-/* .footer-bg{
+.ft-end {
+    display: flex;
+    flex-flow: column;
+    gap: 1rem;
+    justify-content: end;
+}
+
+.made-with-love {
+    display: flex;
+    gap: 0.35rem;
+    justify-content: center;
+    align-items: baseline;
+}
+
+.made-with-love div {
+    font-size: 0.6rem;
+}
+
+.fa-heart {
+    font-size: 0.6rem;
+}
+
+.copyright {
+    font-size: 0.6rem;
+}
+
+.footer-bg {
     position: absolute;
-    top: 157.6rem;
+    top: 157.7rem;
     bottom: 0px;
     width: 100%;
-    height: 49%;
+    height: 47.7%;
     background-color: rgb(254, 93, 122, 0.15);
-    z-index: 1;
-} */
+    z-index: -1;
+}

@@ -13,9 +13,7 @@
 <body>
     <div class="header-bg"></div>
     <div class="wrapper">
-        <!-- grid/flex layout -->
         <div class="top">
-            <!-- grid/flexbox -->
             <header class="header">
                 <div class="logo">
                     <img src="./img/BrainTree logo-01.png" alt="The BrainTree Logo" width="80px" height="61px">
@@ -23,10 +21,16 @@
                 </div>
                 <nav>
                     <ul>
-                        <li>Home</li>
-                        <li>About</li>
-                        <li>Explore</li>
-                        <li>Contact</li>
+                        <li>
+                            <a href="#">Home
+                                <div></div></a>
+                        </li>
+                        <li><a href="#">About</a></li>
+                        <li>
+                            <a href="#">Explore
+                                <i class="fa fa-chevron-down" aria-hidden="true"></i></a>
+                        </li>
+                        <li><a href="#">Contact</a></li>
                     </ul>
                 </nav>
                 <div class="header-right-corner">
@@ -40,93 +44,124 @@
                 <input type="text" name="searchbar" id="search" placeholder="Search for a book or author">
             </div>
         </div>
+
+
+
         <div class="popular-books">
             <div class="popular">
                 <div class="popular-now">
                     <div>Popular Now</div>
                     <i class="fa fa-chevron-right" aria-hidden="true"></i>
                 </div>
-                <div class="view-all">
+                <a href="#" class="view-all">
                     <div>View all</div>
                     <i class="fa fa-chevron-right" aria-hidden="true"></i>
-                </div>
+                </a>
             </div>
             <div class="books">
                 <div class="book">
-                    <div class="book-image">book-image</div>
-                    <div class="book-name">Elements of Theory of Computation</div>
+                    <a href="#">
+                        <img class="book-image" src="./img/book4.jpg" alt="Theory of Computation book">
+                    </a>
+                    <a href="#" class="book-name">Elements of Theory of Computation</a>
                 </div>
                 <div class="book">
-                    <div class="book-image">book-image</div>
-                    <div class="book-name">Introduction to Algorithms</div>
+                    <a href="#">
+                        <img class="book-image" src="./img/book1.jpg" alt="Introduction to Algorithms book">
+                    </a>
+                    <a href="#" class="book-name">Introduction to Algorithms</a>
                 </div>
                 <div class="book">
-                    <div class="book-image">book-image</div>
-                    <div class="book-name">Fundamentals of Database Systems</div>
+                    <a href="#">
+                        <img class="book-image" src="./img/book2.jpg" alt="Fundamentals of Database Systems book">
+                    </a>
+                    <a href="#" class="book-name">Fundamentals of Database Systems</a>
                 </div>
                 <div class="book">
-                    <div class="book-image">book-image</div>
-                    <div class="book-name">Fundamentals of Database Systems</div>
+                    <a href="#">
+                        <img class="book-image" src="./img/book3.jpg" alt="Let Us C book">
+                    </a>
+                    <a href="#" class="book-name">Let Us C</a>
                 </div>
             </div>
         </div>
+
+
+
         <div class="subjects">
             <div class="subject">
                 <div class="sub">
                     <div>Subjects</div>
                     <i class="fa fa-chevron-right" aria-hidden="true"></i>
                 </div>
-                <div class="view-all">
+                <a href="#" class="view-all">
                     <div>View all</div>
                     <i class="fa fa-chevron-right" aria-hidden="true"></i>
-                </div>
+                </a>
             </div>
             <div class="subjects-box">
                 <div class="subject-image-box">
-                    <div class="subject-image">image</div>
-                    <div class="subject-name">Algorithms</div>
+                    <a href="#">
+                        <img class="subject-image" src="./img/algo3.png" alt="Algorithms">
+                    </a>
+                    <a href="#" class="subject-name">Algorithms</a>
                 </div>
                 <div class="subject-image-box">
-                    <div class="subject-image">image</div>
-                    <div class="subject-name">Data Structures</div>
+                    <a href="#">
+                        <img class="subject-image" src="./img/ds.jpg" alt="DS">
+                    </a>
+                    <a href="#" class="subject-name">Data Structures</a>
                 </div>
                 <div class="subject-image-box">
-                    <div class="subject-image">image</div>
-                    <div class="subject-name">Data Structures</div>
+                    <a href="#">
+                        <img class="subject-image" src="./img/se.png" alt="SE">
+                    </a>
+                    <a href="#" class="subject-name">Algorithms</a>
                 </div>
             </div>
         </div>
+
+
+
         <div class="recently-added">
             <div class="recent">
                 <div class="recently">
                     <div>Recently Added</div>
                     <i class="fa fa-chevron-right" aria-hidden="true"></i>
                 </div>
-                <div class="view-all">
+                <a href="#" class="view-all">
                     <div>View all</div>
                     <i class="fa fa-chevron-right" aria-hidden="true"></i>
-                </div>
+                </a>
             </div>
             <div class="recent-books">
                 <div class="recent-book">
-                    <div class="book-image">book-image</div>
-                    <div class="book-name">Elements of Theory of Computation</div>
-                    <div class="ch">Ch 1 Pg 108</div>
+                    <a href="#">
+                        <img class="book-image" src="./img/book4.jpg" alt="Elements of Theory of Computation book">
+                    </a>
+                    <a href="#" class="book-name">Elements of Theory of Computation</a>
+                    <a href="#" class="ch">Ch 1 Pg 108</a>
                 </div>
                 <div class="recent-book">
-                    <div class="book-image">book-image</div>
-                    <div class="book-name">Introduction to Algorithms</div>
-                    <div class="ch">Ch 1 Pg 108</div>
+                    <a href="#">
+                        <img class="book-image" src="./img/book1.jpg" alt="Introduction to Algorithms book">
+                    </a>
+                    <a href="#" class="book-name">Introduction to Algorithms</a>
+                    <a href="#" class="ch">Ch 1 Pg 108</a>
                 </div>
                 <div class="recent-book">
-                    <div class="book-image">book-image</div>
-                    <div class="book-name">Let Us C</div>
-                    <div class="ch">Ch 1 Pg 108</div>
+                    <a href="#">
+                        <img class="book-image" src="./img/book3.jpg" alt="Let Us C book">
+                    </a>
+                    <a href="#" class="book-name">Let Us C</a>
+                    <a href="#" class="ch">Ch 1 Pg 108</a>
                 </div>
                 <div class="recent-book">
-                    <div class="book-image">book-image</div>
-                    <div class="book-name">Fundamentals of Data Structures</div>
-                    <div class="ch">Ch 1 Pg 108</div>
+                    <a href="#">
+                        <img class="book-image" src="./img/book2.jpg" alt="Fundamentals of Database Systems book">
+                    </a>
+                    <a href="#" class="book-name">Fundamentals of Data Structures</a>
+                    <a href="#" class="ch">Ch 1 Pg 108</a>
                 </div>
             </div>
         </div>
@@ -138,12 +173,12 @@
                     collaboration.</div>
                 <button>Ask Something</button>
             </div>
-            <div>image</div>
+            <img src="./img/question.png" alt="Boy asking question" style="width: 400px;height: 240px;">
         </div>
         <footer class="footer">
             <div class="footer-logo-box">
                 <div class="ft-logo">
-                    <img src="./img/BrainTree logo-01.png" alt="The BrainTree Logo" width="120px" height="92px">
+                    <img src="./img/BrainTree logo-01.png" alt="The BrainTree Logo" width="110px" height="81px">
                     <div class="ft-logo-text">The BrainTree</div>
                     <div class="tagline">Homework made easy</div>
                 </div>
