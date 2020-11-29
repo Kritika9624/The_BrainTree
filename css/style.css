@@ -1,0 +1,162 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
+
+:root {
+    --primary-font: 'Inter', sans-serif;
+}
+
+* {
+    box-sizing: border-box;
+    font-family: var(--primary-font);
+    letter-spacing: 0.05rem;
+    text-decoration: none;
+}
+
+html, body{
+    height: 100%;
+    border: 2px solid;
+}
+
+body{
+    margin: 0;
+    border: 2px solid blue;
+}
+
+.wrapper{
+    display: flex;
+    flex-flow: column;
+    gap: 3rem;
+}
+
+header{
+    background-color: rgb(254, 93, 122, 0.15);
+    /* border: 2px solid red; */
+    display: flex;
+    flex-flow: column;
+    gap: 10rem;
+    padding: 0.8rem 5rem 6rem 5rem;
+}
+
+.top-bar{
+    /* border: 2px solid green; */
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logo{
+    display: flex;
+    /* border: 2px solid; */
+    align-items: center;
+}
+
+.logo img{
+    /* border: 2px solid; */
+    margin-left: -1.1rem;
+}
+
+.logo div{
+    /* border: 2px solid; */
+    font-size: 1.2rem;
+    font-weight: 600;
+    color: #1a1c20;
+    margin: -0.2rem;
+}
+
+nav{
+    /* border: 2px solid; */
+    margin: 0 0 0 -10rem;
+}
+
+ul{
+    /* border: 2px solid red; */
+    margin: 0;
+    padding: 1.15rem 0;
+}
+
+li{
+    /* border: 2px solid blue; */
+    list-style-type: none;
+    display: inline-block;
+    margin: 0 1.3rem;
+    font-size: 0.8rem;
+}
+
+a{
+    color: #1a1c20;
+}
+
+.fa-search{
+    /* border: 2px solid; */
+    font-size: 20px;
+    color: #1a1c20;
+}
+
+h2{
+    /* border: 2px solid  brown; */
+    font-size: 1.8rem;
+    margin: 0;
+    text-align: center;
+}
+
+.login-form{
+    border: 2px solid red;
+}
+.form-area{
+    align-items: center;
+    background-color: aquamarine;
+    border: 2px solid;
+    border-radius: 1rem;
+    display: flex;
+    flex-flow: column;
+    gap: 2rem;
+    height: 30rem;
+    margin: auto;
+    padding: 4rem;
+    width: 35rem;
+}
+
+.input-fields{
+    border: 2px solid red;
+    display: flex;
+    flex-flow: column;
+    gap: 1.5rem;
+}
+
+input{
+    height: 3rem;
+    border: none;
+    border-radius: 0.5rem;
+    padding: 00.5rem;
+    width: 25rem;
+}
+
+button{
+    background-color: #1a1c20;
+    border: none;
+    border-radius: 2rem;
+    color: white;
+    width: 10rem;
+    height: 3rem;
+    font-size: 0.7rem;
+}
+
+.or-option{
+    display: flex;
+    flex-flow: column;
+    gap: 2rem;
+    margin-top: 5rem;
+}
+
+.or-text{
+    font-size: 0.8rem;
+    color: #1a1c20;
+    text-align: center;
+}
+
+.social-media{
+    border: 2px solid blue;
+    display: flex;
+    font-size: 1.5rem;
+    gap: 2rem;
+    justify-content: center;
+}

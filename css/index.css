@@ -66,7 +66,6 @@ body {
 
 nav {
     /* border: 2px solid red; */
-    /* padding: 1.2rem 0; */
     margin: 1rem 0 0 -1.4rem;
 }
 
@@ -93,12 +92,23 @@ nav a {
     color: #1a1c20;
 }
 
+nav a:hover{
+    font-size: 0.85rem;
+    color: #FE5D7A;
+}
+
 nav li div {
     border-radius: 50%;
     background-color: #1a1c20;
     height: 4px;
     width: 4px;
     margin: 0.5rem auto;
+}
+
+nav li div:hover{
+    background-color: #FE5D7A;
+    height: 5px;
+    width: 5px;
 }
 
 .header-right-corner {
@@ -282,7 +292,7 @@ nav li div {
     color: white;
     font-size: 0.75rem;
     cursor: pointer;
-    box-shadow: 5px 5px 5px #1a1c2081;
+    box-shadow: 4px 4px 4px #1a1c2081;
 }
 
 .footer {
