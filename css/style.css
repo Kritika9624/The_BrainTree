@@ -27,7 +27,7 @@ header {
     display: flex;
     flex-flow: column;
     gap: 10rem;
-    padding: 0.8rem 5rem 6rem 5rem;
+    padding: 0.8rem 5rem 5rem 5rem;
 }
 
 .top-bar {
