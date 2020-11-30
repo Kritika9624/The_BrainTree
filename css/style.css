@@ -75,8 +75,21 @@ li {
     font-size: 0.8rem;
 }
 
+li div {
+    border-radius: 50%;
+    background-color: #1a1c20;
+    height: 4px;
+    width: 4px;
+    margin: 0.5rem auto;
+}
+
 a {
     color: #1a1c20;
+}
+
+nav a:hover {
+    font-size: 0.85rem;
+    color: #FE5D7A;
 }
 
 .fa-search {
@@ -121,7 +134,8 @@ input {
     width: 20rem;
 }
 
-button {
+.btn1,
+.btn2 {
     background-color: #1a1c20;
     border: none;
     border-radius: 2rem;
@@ -133,7 +147,8 @@ button {
     font-size: 0.7rem;
 }
 
-button:hover {
+.btn1:hover,
+.btn2:hover {
     transform: scale(1.03);
 }
 
@@ -254,4 +269,26 @@ footer {
 
 .copyright {
     font-size: 0.6rem;
+}
+
+
+/* About page css */
+
+.about-box {
+    display: flex;
+    gap: 2rem;
+    padding: 0 7rem;
+}
+
+.about-text-box {
+    /* border: 3px solid red; */
+    display: flex;
+    flex-flow: column;
+    gap: 5rem;
+    justify-content: center;
+}
+
+.about-text {
+    width: 33rem;
+    line-height: 1.5rem;
 }

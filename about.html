@@ -1,6 +1,5 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -9,7 +8,6 @@
     <link rel="shortcut icon" href="./img/favicon.png" type="image/x-icon">
     <link rel="stylesheet" href="./css/style.css">
 </head>
-
 <body>
     <div class="wrapper">
         <!-- header start -->
@@ -22,7 +20,8 @@
                 <nav>
                     <ul>
                         <li><a href="#">Home</li>
-                        <li><a href="#">About</a></li>
+                        <li><a href="#">About
+                            <div></div></a></li>
                         <li>
                             <a href="#">Explore
                                 <i class="fa fa-chevron-down" aria-hidden="true"></i></a>
@@ -32,29 +31,20 @@
                 </nav>
                 <i class="fa fa-search" aria-hidden="true"></i>
             </div>
-            <h2>Sign Up</h2>
+            <h2>About</h2>
         </header>
         <!-- header end -->
 
 
-        <!-- form start -->
-        <form class="form-area" autocomplete="off"
-        onsubmit="return validateForm()">
-            <div class="input-fields">
-                <input type="email" name="email" id="em" placeholder="Email" required>
-                <input type="password" name="password" id="pw" placeholder="Password" minlength="8" maxlength="30" required>
+        <!-- about start -->
+        <div class="about-box">
+            <div class="about-text-box">
+                <div class="about-text">The BrainTree teaches students how to learn with step-by-step solutions, subject-matter expertise and a global network of student contributors. As an independent platform, The BrainTree’s only purpose is to help students succeed.</div>
+                <button type="submit" class="btn2">Take a Tour</button>
             </div>
-            <button class="btn1" type="submit">Sign Up</button>
-            <div class="or-option">
-                <div class="or-text">Or continue using</div>
-                <div class="social-media">
-                    <a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a>
-                    <a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a>
-                    <a href="#"><i class="fa fa-google" aria-hidden="true"></i></a>
-                </div>
-            </div>
-        </form>
-        <!-- form end -->
+            <div class="img-box"><img src="./img/reading.png" alt="Girl reading a book" width="600px"></div>
+        </div>
+        <!-- about end -->
 
         <!-- footer start -->
         <footer>
@@ -96,7 +86,5 @@
         </footer>
         <!-- footer end -->
     </div>
-    <script type="text/javascript" src="./js/login.js"></script>
 </body>
-
 </html>
