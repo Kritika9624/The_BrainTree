@@ -11,13 +11,8 @@
     text-decoration: none;
 }
 
-html {
-    border: 2px solid;
-}
-
 body {
     margin: 0;
-    border: 2px solid blue;
 }
 
 .wrapper {
@@ -138,6 +133,10 @@ button {
     font-size: 0.7rem;
 }
 
+button:hover {
+    transform: scale(1.03);
+}
+
 .or-option {
     display: flex;
     flex-flow: column;
@@ -152,10 +151,17 @@ button {
 }
 
 .social-media {
+    cursor: pointer;
     display: flex;
     font-size: 1.5rem;
     gap: 3rem;
     justify-content: center;
+}
+
+.social-media .fa-facebook:hover,
+.social-media .fa-twitter:hover,
+.fa-google:hover {
+    font-size: 1.6rem;
 }
 
 footer {
@@ -179,10 +185,12 @@ footer {
 }
 
 .ft-logo img {
+    cursor: pointer;
     margin: auto;
 }
 
 .ft-logo-text {
+    cursor: pointer;
     font-size: 1.6rem;
     font-weight: 600;
     text-align: center;
@@ -194,6 +202,7 @@ footer {
 }
 
 .social-media-icons {
+    cursor: pointer;
     display: flex;
     justify-content: space-evenly;
 }

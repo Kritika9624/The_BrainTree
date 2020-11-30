@@ -295,6 +295,10 @@ nav li div:hover{
     box-shadow: 4px 4px 4px #1a1c2081;
 }
 
+.question-box-text button:hover{
+    transform: scale(1.03);
+}
+
 .footer {
     display: flex;
     justify-content: space-between;

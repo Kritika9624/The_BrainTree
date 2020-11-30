@@ -38,25 +38,22 @@
 
 
         <!-- form start -->
-        <!-- bg color -->
-        <div class="login-form">
-            <!-- flex -->
-            <div class="form-area">
-                <div class="input-fields">
-                    <input type="email" name="email" id="em" placeholder="Email">
-                    <input type="password" name="password" id="pw" placeholder="Password">
-                </div>
-                <button type="submit">Sign Up</button>
-                <div class="or-option">
-                    <div class="or-text">Or continue using</div>
-                    <div class="social-media">
-                        <a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a>
-                        <a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a>
-                        <a href="#"><i class="fa fa-google" aria-hidden="true"></i></a>
-                    </div>
+        <form class="form-area" autocomplete="off"
+        onsubmit="return validateForm()">
+            <div class="input-fields">
+                <input type="email" name="email" id="em" placeholder="Email" required>
+                <input type="password" name="password" id="pw" placeholder="Password" minlength="8" maxlength="30" required>
+            </div>
+            <button type="submit">Sign Up</button>
+            <div class="or-option">
+                <div class="or-text">Or continue using</div>
+                <div class="social-media">
+                    <a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a>
+                    <a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a>
+                    <a href="#"><i class="fa fa-google" aria-hidden="true"></i></a>
                 </div>
             </div>
-        </div>
+        </form>
         <!-- form end -->
 
         <!-- footer start -->
@@ -99,6 +96,7 @@
         </footer>
         <!-- footer end -->
     </div>
+    <script type="text/javascript" src="./js/login.js"></script>
 </body>
 
 </html>
