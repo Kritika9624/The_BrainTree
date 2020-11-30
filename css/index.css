@@ -126,6 +126,7 @@ nav li div:hover{
 
 .header-right-corner button {
     border: none;
+    box-shadow: 5px 5px 8px #1a1c202a;
     width: 5.7rem;
     height: 2.2rem;
     font-size: 0.75rem;
@@ -133,6 +134,10 @@ nav li div:hover{
     background-color: #1a1c20;
     color: white;
     cursor: pointer;
+}
+
+.header-right-corner button:hover{
+    transform: scale(1.02);
 }
 
 .hero-text {

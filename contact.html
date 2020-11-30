@@ -7,7 +7,7 @@
     <title>The Braintree - Homework made easy</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="shortcut icon" href="./img/favicon.png" type="image/x-icon">
-    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/contact.css">
 </head>
 
 <body>
@@ -21,40 +21,63 @@
                 </a>
                 <nav>
                     <ul>
-                        <li><a href="#">Home</li>
-                        <li><a href="#">About</a></li>
+                        <li><a href="./index.html">Home</li>
+                        <li><a href="./about.html">About
+                            </a></li>
                         <li>
                             <a href="#">Explore
                                 <i class="fa fa-chevron-down" aria-hidden="true"></i></a>
                         </li>
-                        <li><a href="./contact.html">Contact</a></li>
+                        <li><a href="./contact.html">Contact
+                                <div></div></a></li>
                     </ul>
                 </nav>
-                <i class="fa fa-search" aria-hidden="true"></i>
+                <div class="header-right-corner">
+                    <i class="fa fa-search" aria-hidden="true"></i>
+                    <a href="./login.html"><button>Sign Up</button></a>
+                </div>
+                
             </div>
-            <h2>Sign Up</h2>
+            <!-- <h2>Contact</h2> -->
         </header>
         <!-- header end -->
 
 
-        <!-- form start -->
-        <form class="form-area" autocomplete="off"
-        onsubmit="return validateForm()">
-            <div class="input-fields">
-                <input type="email" name="email" id="em" placeholder="Email" required>
-                <input type="password" name="password" id="pw" placeholder="Password" minlength="8" maxlength="30" required>
-            </div>
-            <button class="btn1" type="submit">Sign Up</button>
-            <div class="or-option">
-                <div class="or-text">Or continue using</div>
-                <div class="social-media">
-                    <a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a>
+        <!-- contact box start -->
+        <div class="contact-container">
+            <div class="contact-box">
+                <h2>Get in touch</h2>
+                <div class="contact-input">
+                    <input type="email" name="email" id="em" placeholder="Email">
+                    <textarea name="txtarea" id="txt" cols="30" rows="10" placeholder="Your message here..."></textarea>
+                </div>
+                <button class="btn3" type="submit">Submit</button>
+                <div class="social-icons">
                     <a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a>
-                    <a href="#"><i class="fa fa-google" aria-hidden="true"></i></a>
+                    <a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a>
+                    <a href="#"><i class="fa fa-instagram" aria-hidden="true"></i></a>
                 </div>
             </div>
-        </form>
-        <!-- form end -->
+            <div class="location-box">
+                <img src="./img/contact.png" alt="Girl and Boy holding location mark" width="680px">
+                <div class="location">
+                    <iframe
+                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d56010.04089300517!2d77.22609286200034!3d28.670868494911247!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390cfd928daadb91%3A0x76aa925fc6e58347!2sDepartment%20of%20Computer%20Science!5e0!3m2!1sen!2sin!4v1606731517580!5m2!1sen!2sin"
+                        width="250" height="200" frameborder="0" style="border:0;" allowfullscreen=""
+                        aria-hidden="false" tabindex="0"></iframe>
+                    <address>
+                        Department of Computer Science &middot;
+                        First Floor &middot;
+                        Faculty of Mathematical Sciences &middot;
+                        Room No . 113 &middot;
+                        Opposite Daulat Ram College &middot;
+                        University of Delhi, 110007
+                    </address>
+                </div>
+            </div>
+        </div>
+        <!-- contact end -->
+
 
         <!-- footer start -->
         <footer>
@@ -96,7 +119,6 @@
         </footer>
         <!-- footer end -->
     </div>
-    <script type="text/javascript" src="./js/login.js"></script>
 </body>
 
 </html>
